@@ -1,0 +1,7 @@
+{
+  "name": "E-Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
