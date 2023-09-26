@@ -1,0 +1,28 @@
+<ion-content>
+  <div class="content" *ngIf="signUp">
+    <h2>Sign In </h2>
+    
+    <ion-input label="Email* " label-placement="floating" fill="outline" placeholder="Email"  >  
+    </ion-input><br> 
+    <ion-input label="Password* " label-placement="floating" fill="outline" placeholder="Password" >  
+    </ion-input><br>
+    
+    <ion-button  (click)="clickLogin()" >Login  </ion-button>
+    <ion-button (click)="clickLogin()">Sign Up</ion-button>
+  </div>
+
+  <div class="content" *ngIf="login">
+    
+    <h2>Sign Up </h2>
+    <ion-input label="Name* " label-placement="floating" fill="outline" placeholder="Name"  >  
+    </ion-input><br>
+    <ion-input label="Email* " label-placement="floating" fill="outline" placeholder="Email"  >  
+    </ion-input><br> 
+    <ion-input label="Password* " label-placement="floating" fill="outline" placeholder="Password" >  
+    </ion-input><br>
+    <ion-input label="Conform Password*" label-placement="floating" fill="outline" placeholder="Conform-password" >  
+    </ion-input><br>
+    <ion-button >Sign Up</ion-button>
+    <ion-button (click)="clickSignup()" >Login  </ion-button>
+  </div>
+</ion-content>
